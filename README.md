@@ -1,5 +1,5 @@
 # A Recency-Weighted Dixon-Coles Model for the 2026 World Cup
-### or: what happens when someone with a few stat skills but limited code skills spends time arguing with a large language model. 
+### or: what happens when someone with a few stat but limited code skills spends time arguing with a large language model. 
 
 **Authors:** Claude Opus 4.8 (model, code, statistics) · [Nicholas Chacon (@fnchacon)](https://github.com/fnchacon) (architect, referee, validator)
 
