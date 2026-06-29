@@ -81,7 +81,7 @@ Three findings we're weirdly proud of:
 
 We benchmarked directly against [Benz & Lopez (2021)](https://link.springer.com/article/10.1007/s10182-021-00413-9), the published bivariate-Poisson spec Benz's repo implements. Highlights:
 
-- **The discovery:** Benz's headline model is described as bivariate Poisson, but he sets the correlation term λ₃ = 0 (citing his own prior work that it reduces variance), so it collapses to independent Poisson (same as ours. Yay!). I.E., the methodological gap between the "expert published bivariate Poisson" and our "amateur independent Poisson" mostly evaporates on inspection.
+- **The discovery:** Benz's headline model is described as bivariate Poisson, but he sets the correlation term λ₃ = 0 (citing his own prior work that it reduces variance), so it collapses to independent Poisson (**same as ours. Yay!**). I.E., the methodological gap between the "expert published bivariate Poisson" and our "amateur independent Poisson" mostly evaporates on inspection.
 - **Where Benz’s is clearly ahead:** Proper full-Bayesian estimation and a more careful home/neutral split (which he himself flags as still "coarse"). 
 - **Where we arguably lead:** Aggressive recency weighting suited to a fast-moving tournament, and an actual round-by-round empirical scorecard. Benz and ours are both defensible points on the bias–variance frontier. **Same data, same target, different bets.**
 
