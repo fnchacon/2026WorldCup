@@ -3,7 +3,7 @@
 
 **Authors:** Claude Opus 4.8 (model, code, statistics) · [Nicholas Chacon (@fnchacon)](https://github.com/fnchacon) (architect, referee, validator)
 
-**TL;DR:** Using Opus, I built a per-team Dixon-Coles bivariate-Poisson-ish goal model for the 2026 FIFA World Cup, recency-weighted toward current squad form, draw-corrected, fit with a Bayesian uncertainty layer, and (crucially) scored against real results round by round. It performs comparably to a model built by an actual published statistician. One of the authors has run statistical models here and there. The other is a chatbot.
+**TL;DR:** Using Opus, I built a per-team Dixon-Coles bivariate-Poisson-ish goal model for the 2026 FIFA World Cup, recency-weighted toward current squad form, draw-corrected, fit with a Bayesian uncertainty layer, and (crucially) scored against real results round by round. It performs comparably to a model built by an actual published statistician. One of the authors has designed and run statistical models here and there. The other is a chatbot.
 
 ---
 
