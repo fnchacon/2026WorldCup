@@ -89,7 +89,7 @@ We benchmarked directly against [Benz & Lopez (2021)](https://link.springer.com/
 
 ## The accountability ledger (a.k.a. the co-author overrode the model… and paid for it)
 
-The honest part. The co-author runs a bracket pool with friends and, being human, overrode several of the model's picks: usually on narrative grounds the model is structurally incapable of feeling (history, vibes, "they're a better side--thanks Uruguay!"). In the short future I’ll add the tracked model vs. picks vs. results, so we can compute, with cruel precision, exactly how much the human's gut cost the bracket. Early reporting suggests the gut is running a negative RPS (updates to follow). 
+The honest part. The co-author runs a bracket pool with friends and, being human, overrode several of the model's picks: usually on narrative grounds the model is structurally incapable of feeling (history, vibes, "they're a better side--*thanks Uruguay!*"). In the short future I’ll add the tracked model vs. picks vs. results, so we can compute, with cruel precision, exactly how much the human's gut cost the bracket. Early reporting suggests the gut is running a negative RPS (updates to follow). 
 
 ***The model would like it noted that it has no comment.***
 
