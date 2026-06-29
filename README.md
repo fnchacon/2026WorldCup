@@ -43,7 +43,7 @@ We checked the empirical home/away score correlation: it's **−0.205** (negativ
 
 Each match is weighted with exponential time-decay, **half-life ≈ 1.5 years**, with friendlies discounted. This is deliberate. A national team's Elo or rating can technically chain back a century, but we wanted this squad, not the ghosts of 2014, to be modeled for the game. The aggressive decay means a five-year-old result keeps only ~10% weight. The current generation dominates.
 
-This is the single biggest philosophical difference from Benz's model (see comparison below), and it came out from a simple prompt: *"when doing the Elo rating, are you rating today’s Brazilian’s team or that of 1970?”* This led to a conversation, whose outcome was this aggressive time decay.
+This is the single biggest philosophical difference from Benz's model (see comparison below), and it came out from a simple prompt: **"when doing the Elo rating, are you rating today’s Brazilian’s team or that of 1970?”** This led to a conversation, whose outcome was this aggressive time decay.
 
 ---
 
@@ -83,15 +83,15 @@ We benchmarked directly against [Benz & Lopez (2021)](https://link.springer.com/
 
 - **The discovery:** Benz's headline model is described as bivariate Poisson, but he sets the correlation term λ₃ = 0 (citing his own prior work that it reduces variance), so it collapses to independent Poisson (same as ours. Yay!). I.E., the methodological gap between the "expert published bivariate Poisson" and our "amateur independent Poisson" mostly evaporates on inspection.
 - **Where Benz’s is clearly ahead:** Proper full-Bayesian estimation and a more careful home/neutral split (which he himself flags as still "coarse"). 
-- **Where we arguably lead:** Aggressive recency weighting suited to a fast-moving tournament, and an actual round-by-round empirical scorecard. Benz and ours are both defensible points on the bias–variance frontier. *Same data, same target, different bets*.
+- **Where we arguably lead:** Aggressive recency weighting suited to a fast-moving tournament, and an actual round-by-round empirical scorecard. Benz and ours are both defensible points on the bias–variance frontier. **Same data, same target, different bets.**
 
 ---
 
 ## The accountability ledger (a.k.a. the co-author overrode the model… and paid for it)
 
-The honest part. The co-author runs a bracket pool with friends and, being human, overrode several of the model's picks: usually on narrative grounds the model is structurally incapable of feeling (history, vibes, "they're due"). In the short future I’ll add the tracked model vs. picks vs. results, so we can compute, with cruel precision, exactly how much the human's gut cost the bracket. Early reporting suggests the gut is running a negative RPS (updates to follow). 
+The honest part. The co-author runs a bracket pool with friends and, being human, overrode several of the model's picks: usually on narrative grounds the model is structurally incapable of feeling (history, vibes, "they're a better side--thanks Uruguay!"). In the short future I’ll add the tracked model vs. picks vs. results, so we can compute, with cruel precision, exactly how much the human's gut cost the bracket. Early reporting suggests the gut is running a negative RPS (updates to follow). 
 
-*The model would like it noted that it has no comment.*
+***The model would like it noted that it has no comment.***
 
 ---
 
@@ -120,7 +120,7 @@ Outputs land in [predictions/](predictions/). After each matchday, append result
 ## Honest limitations
 
 - **No player-level data.** The model sees team-level goals, not rosters. A €600M squad that hasn't scored looks average. This would be a next-level upgrade.
-- **Host advantage is a guess.** A single bonus for three very different home situations. Probably underrates the USA late.
+- **Host advantage is a guess.** A single bonus for three very different home situations. Probably underrates the USA.
 - **Tournament form is unobserved.** Injuries, fatigue, a new manager: none of it is in the model.
 - **Single-elimination is variance.** A 23% favorite loses the trophy ~3/4. These are probabilities, not prophecies.
 - **One of the authors is a language model** and may, on a bad day, confidently put two same-side teams in a final. (It happened. The co-author caught it. That's why there is a co-author--the HITL factor in action.)
