@@ -1,0 +1,5 @@
+round,matches,outcome_accuracy_pct,rps,notes
+Matchday 1,24,50.0,0.183,draw+goals outlier; 9 draws
+Matchday 2,24,70.8,0.133,sharpest round
+Matchday 3,24,54.0,0.132,8 draws; dead-rubber rotation effect
+Cumulative,72,58.3,0.149,vs uniform baseline RPS 0.215

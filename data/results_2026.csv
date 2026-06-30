@@ -1,0 +1,89 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+6/11/26,Mexico,South Africa,2,0,FIFA World Cup,Mexico City,Mexico,FALSE
+6/11/26,South Korea,Czech Republic,2,1,FIFA World Cup,Guadalajara,Mexico,TRUE
+6/12/26,Canada,Bosnia and Herzegovina,1,1,FIFA World Cup,Toronto,Canada,FALSE
+6/12/26,United States,Paraguay,4,1,FIFA World Cup,Inglewood,United States,FALSE
+6/13/26,Haiti,Scotland,0,1,FIFA World Cup,Foxborough,United States,TRUE
+6/13/26,Australia,Turkey,2,0,FIFA World Cup,Vancouver,Canada,TRUE
+6/13/26,Brazil,Morocco,1,1,FIFA World Cup,East Rutherford,United States,TRUE
+6/13/26,Qatar,Switzerland,1,1,FIFA World Cup,Santa Clara,United States,TRUE
+6/14/26,Ivory Coast,Ecuador,1,0,FIFA World Cup,Philadelphia,United States,TRUE
+6/14/26,Germany,Curaçao,7,1,FIFA World Cup,Houston,United States,TRUE
+6/14/26,Netherlands,Japan,2,2,FIFA World Cup,Arlington,United States,TRUE
+6/14/26,Sweden,Tunisia,5,1,FIFA World Cup,Monterrey,Mexico,TRUE
+6/15/26,Saudi Arabia,Uruguay,1,1,FIFA World Cup,Miami,United States,TRUE
+6/15/26,Spain,Cape Verde,0,0,FIFA World Cup,Atlanta,United States,TRUE
+6/15/26,Iran,New Zealand,2,2,FIFA World Cup,Inglewood,United States,TRUE
+6/15/26,Belgium,Egypt,1,1,FIFA World Cup,Seattle,United States,TRUE
+6/16/26,France,Senegal,3,1,FIFA World Cup,East Rutherford,United States,TRUE
+6/16/26,Iraq,Norway,1,4,FIFA World Cup,Foxborough,United States,TRUE
+6/16/26,Argentina,Algeria,3,0,FIFA World Cup,Kansas City,United States,TRUE
+6/17/26,Austria,Jordan,3,1,FIFA World Cup,Santa Clara,United States,TRUE
+6/17/26,Ghana,Panama,1,0,FIFA World Cup,Toronto,Canada,TRUE
+6/17/26,England,Croatia,4,2,FIFA World Cup,Arlington,United States,TRUE
+6/17/26,Portugal,DR Congo,1,1,FIFA World Cup,Houston,United States,TRUE
+6/17/26,Uzbekistan,Colombia,1,3,FIFA World Cup,Mexico City,Mexico,TRUE
+6/18/26,Czech Republic,South Africa,1,1,FIFA World Cup,Atlanta,United States,TRUE
+6/18/26,Switzerland,Bosnia and Herzegovina,4,1,FIFA World Cup,Inglewood,United States,TRUE
+6/18/26,Canada,Qatar,6,0,FIFA World Cup,Vancouver,Canada,FALSE
+6/18/26,Mexico,South Korea,1,0,FIFA World Cup,Guadalajara,Mexico,FALSE
+6/19/26,United States,Australia,2,0,FIFA World Cup,Seattle,United States,FALSE
+6/19/26,Scotland,Morocco,0,1,FIFA World Cup,Foxborough,United States,TRUE
+6/19/26,Brazil,Haiti,3,0,FIFA World Cup,Philadelphia,United States,TRUE
+6/19/26,Turkey,Paraguay,0,1,FIFA World Cup,Santa Clara,United States,TRUE
+6/20/26,Netherlands,Sweden,5,1,FIFA World Cup,Houston,United States,TRUE
+6/20/26,Germany,Ivory Coast,2,1,FIFA World Cup,Toronto,Canada,TRUE
+6/20/26,Ecuador,Curaçao,0,0,FIFA World Cup,Kansas City,United States,TRUE
+6/20/26,Tunisia,Japan,0,4,FIFA World Cup,Monterrey,Mexico,TRUE
+6/21/26,Spain,Saudi Arabia,4,0,FIFA World Cup,Atlanta,United States,TRUE
+6/21/26,Belgium,Iran,0,0,FIFA World Cup,Inglewood,United States,TRUE
+6/21/26,Uruguay,Cape Verde,2,2,FIFA World Cup,Miami,United States,TRUE
+6/21/26,New Zealand,Egypt,1,3,FIFA World Cup,Vancouver,Canada,TRUE
+6/22/26,Argentina,Austria,2,0,FIFA World Cup,Arlington,United States,TRUE
+6/22/26,France,Iraq,3,0,FIFA World Cup,Philadelphia,United States,TRUE
+6/22/26,Norway,Senegal,3,2,FIFA World Cup,East Rutherford,United States,TRUE
+6/22/26,Jordan,Algeria,1,2,FIFA World Cup,Santa Clara,United States,TRUE
+6/23/26,Portugal,Uzbekistan,5,0,FIFA World Cup,Houston,United States,TRUE
+6/23/26,England,Ghana,0,0,FIFA World Cup,Foxborough,United States,TRUE
+6/23/26,Panama,Croatia,0,1,FIFA World Cup,Toronto,Canada,TRUE
+6/23/26,Colombia,DR Congo,1,0,FIFA World Cup,Guadalajara,Mexico,TRUE
+6/24/26,Mexico,Czech Republic,1,1,FIFA World Cup,Mexico City,Mexico,FALSE
+6/24/26,South Africa,South Korea,2,1,FIFA World Cup,Monterrey,Mexico,TRUE
+6/24/26,Canada,Switzerland,3,2,FIFA World Cup,Vancouver,Canada,FALSE
+6/24/26,Bosnia and Herzegovina,Qatar,0,0,FIFA World Cup,Seattle,United States,TRUE
+6/24/26,Brazil,Scotland,4,1,FIFA World Cup,Miami,United States,TRUE
+6/24/26,Haiti,Morocco,1,3,FIFA World Cup,Atlanta,United States,TRUE
+6/25/26,Turkey,United States,3,2,FIFA World Cup,Inglewood,United States,FALSE
+6/25/26,Paraguay,Australia,0,0,FIFA World Cup,Santa Clara,United States,TRUE
+6/25/26,Germany,Ecuador,2,0,FIFA World Cup,East Rutherford,United States,TRUE
+6/25/26,Ivory Coast,Curaçao,3,0,FIFA World Cup,Philadelphia,United States,TRUE
+6/25/26,Netherlands,Tunisia,4,0,FIFA World Cup,Kansas City,United States,TRUE
+6/25/26,Sweden,Japan,1,1,FIFA World Cup,Arlington,United States,TRUE
+6/26/26,Norway,France,1,4,FIFA World Cup,Foxborough,United States,TRUE
+6/26/26,Senegal,Iraq,5,0,FIFA World Cup,Toronto,Canada,TRUE
+6/26/26,Cape Verde,Saudi Arabia,0,0,FIFA World Cup,Houston,United States,TRUE
+6/26/26,Uruguay,Spain,0,1,FIFA World Cup,Guadalajara,Mexico,TRUE
+6/26/26,New Zealand,Belgium,1,5,FIFA World Cup,Vancouver,Canada,TRUE
+6/26/26,Egypt,Iran,1,1,FIFA World Cup,Seattle,United States,TRUE
+6/27/26,Panama,England,0,2,FIFA World Cup,East Rutherford,United States,TRUE
+6/27/26,Croatia,Ghana,2,1,FIFA World Cup,Philadelphia,United States,TRUE
+6/27/26,Colombia,Portugal,0,0,FIFA World Cup,Miami,United States,TRUE
+6/27/26,DR Congo,Uzbekistan,3,1,FIFA World Cup,Atlanta,United States,TRUE
+6/27/26,Algeria,Austria,3,3,FIFA World Cup,Kansas City,United States,TRUE
+6/27/26,Jordan,Argentina,1,3,FIFA World Cup,Arlington,United States,TRUE
+6/28/26,South Africa,Canada,0,1,FIFA World Cup,Inglewood,United States,FALSE
+6/29/26,Germany,Paraguay,1,1,FIFA World Cup,Foxborough,United States,TRUE
+6/29/26,Netherlands,Morocco,1,1,FIFA World Cup,Monterrey,Mexico,TRUE
+6/29/26,Brazil,Japan,2,1,FIFA World Cup,Houston,United States,TRUE
+6/30/26,Ivory Coast,Norway,,,FIFA World Cup,Arlington,United States,TRUE
+6/30/26,France,Sweden,,,FIFA World Cup,East Rutherford,United States,TRUE
+6/30/26,Mexico,Ecuador,,,FIFA World Cup,Mexico City,Mexico,FALSE
+7/1/26,England,DR Congo,,,FIFA World Cup,Atlanta,United States,TRUE
+7/1/26,Belgium,Senegal,,,FIFA World Cup,Seattle,United States,TRUE
+7/1/26,United States,Bosnia and Herzegovina,,,FIFA World Cup,Santa Clara,United States,FALSE
+7/2/26,Spain,Austria,,,FIFA World Cup,Inglewood,United States,TRUE
+7/2/26,Portugal,Croatia,,,FIFA World Cup,Toronto,Canada,TRUE
+7/2/26,Switzerland,Algeria,,,FIFA World Cup,Vancouver,Canada,TRUE
+7/3/26,Australia,Egypt,,,FIFA World Cup,Arlington,United States,TRUE
+7/3/26,Argentina,Cape Verde,,,FIFA World Cup,Miami,United States,TRUE
+7/3/26,Colombia,Ghana,,,FIFA World Cup,Kansas City,United States,TRUE

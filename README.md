@@ -93,25 +93,25 @@ The honest part. The co-author runs a bracket pool with friends and, being human
 
 ***The model would like it noted that it has no comment.***
 
-> [!IMPORTANT]
-> ### EDIT: Verdict: The Gut Tax Is Real (−7)
-> 
-> Given that the original aim was to keep this Repo private, the co-author had to recapture all of his bracket predictions and run the analysis…The accountability ledger isn’t kind to the human.
-> 
-> Across 76 completed matches, the model called **59%** of outcomes correctly (to his 51%), and hit exact scores nearly twice as often (15% vs 8%).
-> 
-> But the overrides are where it gets ugly. The co-author overruled the model **30 times**:
-> * Six helped - **Thirteen hurt** = Net score **−7** 
-> * In the 16 matches where the model and the co-author flat-out disagreed on who'd win, the model went **10/16** and the co-author 4/16. 
-> 
-> The co-author kept erasing the model's draws:
-> * Bosnia–Qatar (model said 1-1, co-author said 1-0, it finished 0-0). 
-> * Paraguay–Australia (1-0 over its 0-0; actual 0-0). 
-> * Iran–Egypt, Saudi–Cabo Verde, Algeria–Austria… 
-> 
-> Over and over, **the model shrugged and predicted a tight, low-scoring stalemate**, and over and over the co-author "corrected" it into something more exciting. The model's most boring instinct was its most correct.
-> 
-> *The model would like it noted that it still has no comment.*
+EDIT:
+## Verdict: The Gut Tax Is Real (−7)
+
+Given that the original aim was to keep this Repo private, the co-author had to recapture all of his bracket predictions and run the analysis…The accountability ledger isn’t kind to the human.
+
+Across 76 completed matches, the model called **59%** of outcomes correctly (to his 51%), and hit exact scores nearly twice as often (15% vs 8%).
+
+But the overrides are where it gets ugly. The co-author overruled the model **30 times**:
+* Six helped - **Thirteen hurt** = Net score **−7** 
+* In the 16 matches where the model and the co-author flat-out disagreed on who'd win, the model went **10/16** and the co-author 4/16. 
+
+The co-author kept erasing the model's draws:
+* Bosnia–Qatar (model said 1-1, co-author said 1-0, it finished 0-0). 
+* Paraguay–Australia (1-0 over its 0-0; actual 0-0). 
+* Iran–Egypt, Saudi–Cabo Verde, Algeria–Austria… 
+
+Over and over, **the model shrugged and predicted a tight, low-scoring stalemate**, and over and over the co-author "corrected" it into something more exciting. The model's most boring instinct was its most correct.
+
+***The model would like it noted that it still has no comment.***
 
 ---
 
