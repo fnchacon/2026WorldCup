@@ -102,7 +102,7 @@ Across 76 completed matches, the model called **59%** of outcomes correctly (to 
 
 But the overrides are where it gets ugly. The co-author overruled the model **30 times**:
 * Six helped - **Thirteen hurt** = Net score **−7** 
-* In the 16 matches where the model and the co-author flat-out disagreed on who'd win, the model went **10/16** and the co-author 4/16. 
+* In the 16 matches where the model and the co-author flat-out disagreed on who'd win, the model went **10/16** and the co-author 4/16 (both were wrong in two matches: Mexico–S. Korea and USA–Türkiye). 
 
 The co-author kept erasing the model's draws:
 * Bosnia–Qatar (model said 1-1, co-author said 1-0, it finished 0-0). 
