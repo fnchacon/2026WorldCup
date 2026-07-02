@@ -1,0 +1,17 @@
+match,modal_score,modal_ev,pool_optimal_score,optimal_ev,ev_gain,differs
+Germany-Paraguay,2-0,1.49,2-0,1.49,0.00,
+France-Sweden,3-1,1.69,3-1,1.69,0.00,
+South Africa-Canada,0-1,1.45,0-1,1.45,0.00,
+Netherlands-Morocco,1-1,0.91,1-0,0.92,0.02,YES
+Portugal-Croatia,1-1,0.69,2-0,1.37,0.68,YES
+Spain-Austria,2-0,1.60,2-0,1.60,0.00,
+USA-Bosnia,2-1,1.51,2-1,1.51,0.00,
+Belgium-Senegal,1-1,0.79,2-1,1.06,0.28,YES
+Brazil-Japan,1-1,0.84,1-0,1.03,0.18,YES
+Cote d'Ivoire-Norway,1-1,0.81,0-1,1.10,0.28,YES
+Mexico-Ecuador,0-0,1.40,0-0,1.40,0.00,
+England-DR Congo,1-0,1.53,1-0,1.53,0.00,
+Argentina-Cabo Verde,2-0,2.03,2-0,2.03,0.00,
+Australia-Egypt,0-0,1.13,0-0,1.13,0.00,
+Switzerland-Algeria,1-1,0.70,2-1,1.18,0.48,YES
+Colombia-Ghana,1-0,1.69,1-0,1.69,0.00,
