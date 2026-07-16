@@ -1,0 +1,2 @@
+round,matches,outcome_accuracy_pct,rps,notes
+Round of 32,16,75.0,0.124,top-pick/argmax accuracy; vs uniform baseline RPS 0.215

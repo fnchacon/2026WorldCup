@@ -121,9 +121,32 @@ Over and over, **the model shrugged and predicted a tight, low-scoring stalemate
 pip install -r requirements.txt
 python run_pipeline.py            # fit on cached results
 python run_pipeline.py --update   # pull latest results, then fit
+python score.py                   # reconcile group stage + Round of 32 scorecards
 ```
 
 Outputs land in [predictions/](predictions/). After each matchday, append results to [data/results_2026.csv](data/results_2026.csv) (schema matches [martj42/international_results](https://github.com/martj42/international_results)) and re-run.
+
+## Reconciled scoring checks
+
+`score.py` keeps two accuracy definitions separate:
+
+- **Top-pick / argmax accuracy** scores the most likely probability outcome from `p_home`, `p_draw`, and `p_away`.
+- **Modal-scoreline result** scores the outcome implied by the submitted scoreline and is used for the bracket head-to-head and override effects.
+
+Current reconciliation targets:
+
+| Check | Reconciled value |
+| --- | --- |
+| Group top-pick accuracy | MD1 50.0%, MD2 70.8%, MD3 54.0%, cumulative 58.3% |
+| Group RPS | MD1 0.183, MD2 0.133, MD3 0.132, cumulative 0.149 |
+| Group overrides | 29 total; 6 helped, 12 hurt, 11 neutral; net -6; by matchday +1 / -2 / -5 |
+| Group pick disagreements | 16 total; model right 10, me right 4, both wrong 2 |
+| R32 top-pick accuracy | 12/16 = 75.0%; RPS 0.124 |
+| R32 overrides | 6 total; helped Portugal-Croatia and Switzerland-Algeria; hurt South Africa-Canada and Argentina-Cabo Verde; neutral Mexico-Ecuador and Belgium-Senegal; net 0 |
+| R32 modal-scoreline head-to-head | Me 10/16, model 9/16; exact scores model 3, me 2 |
+| R32 draws | 3 draws; model scoreline called Netherlands-Morocco 1-1 and Australia-Egypt 0-0, missed Germany-Paraguay |
+
+For R32 probability/RPS scoring, use [predictions/r32_game_predictions.csv](predictions/r32_game_predictions.csv). For pool and head-to-head scoring, use the submitted ledger scorelines in [predictions/bracket_vs_model.csv](predictions/bracket_vs_model.csv). A few projected scorelines differ between those files, including Germany-Paraguay (`2-0` in the ledger, `2-1` in the probability file); `score.py` prints these differences explicitly.
 
 ---
 
@@ -132,6 +155,7 @@ Outputs land in [predictions/](predictions/). After each matchday, append result
 - [wc2026_model.py](wc2026_model.py)    # the model: load -> weighted MLE fit -> Dixon-Coles -> predict
 - [bayes_layer.py](bayes_layer.py)     # Laplace posterior + bracket uncertainty propagation
 - [run_pipeline.py](run_pipeline.py)    # one-command orchestrator
+- [score.py](score.py)           # reconciles published group-stage and R32 scoring numbers
 - [data/](data/)              # results (our live-update mechanism)
 - [predictions/](predictions/)       # per-game scorelines, title odds, the scorecard, the ledger
 
