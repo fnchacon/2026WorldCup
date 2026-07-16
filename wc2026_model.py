@@ -65,3 +65,12 @@ def predict_match(P,h,a,major=True,neutral=True):
     pH=np.tril(M,-1).sum(); pD=np.trace(M); pA=np.triu(M,1).sum()
     top=sorted(((i,j,M[i,j]) for i in range(MAXG) for j in range(MAXG)),key=lambda z:-z[2])[:3]
     return lh,la,pH,pD,pA,M,top
+
+def poisson_goal_mode(lam,maxg=MAXG):
+    if np.isclose(lam,np.floor(lam)):
+        return int(np.floor(lam))
+    return int(np.argmax(poisson.pmf(range(maxg),lam)))
+
+def modal_scoreline(lh,la,maxg=MAXG):
+    """Modal (most-likely) exact scoreline, not rounded expected goals."""
+    return f"{poisson_goal_mode(lh,maxg)}-{poisson_goal_mode(la,maxg)}"
